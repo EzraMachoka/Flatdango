@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#firstMovie{
+    margin-left: 25%;
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    margin-left: 30%;
+}
+
+button:hover{
+    background: none;
+    border: 2px solid black;
+    scale: 1.25;
+    color: black;
+}
